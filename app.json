@@ -1,0 +1,17 @@
+{
+    "name": "経費精算サンプル",
+    "repository": "https://github.com/40webapp/webapp01",
+    "addons": [
+        {
+            "plan": "heroku-postgresql",
+            "options": {
+                "version": "11"
+            }
+        }
+    ],
+    "buildpacks": [
+        {
+            "url": "heroku/nodejs"
+        }
+    ]
+}
